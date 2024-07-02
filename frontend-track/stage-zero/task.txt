@@ -1,0 +1,14 @@
+Stage Zero Task - Frontend  Track
+Your First Mission: Write a technical article about frontend technologies
+Brief
+On a blog platform of your choice, write a technical article comparing two different frontend technologies (anything is fine, the more niche, the better). Contrast the difference between each of them and what makes them better. In HNG, we use ReactJS, talk a little bit about what you expect to do in HNG and how you feel about React:
+:memo:Acceptance Criteria:
+Keep it engaging and informative.
+Write in a clear and concise style.
+Be yourself and let your personality shine through!
+It MUST include at least two links to the HNG Internship websites; choose from any of https://hng.tech/internship, https://hng.tech/hire, or https://hng.tech/premium so others can learn more about the program.
+Publish your blog post on any medium of your choice
+Deadline: Saturday, 29th June - 11:59pm WAT
+Price: Promotion to stage one
+Submission Link: CLICK HERE TO SUBMIT https://docs.google.com/forms/d/e/1FAIpQLSeLM7imPWyUBQfIo6BBGOwXOyFkewYaD0cXuiF5sGMT03lhCw/viewform?usp=sf_link
+Note: We don’t encourage copying from anywhere/anybody. If you do, you’d get caught! We have our system to check for that. Good luck!
