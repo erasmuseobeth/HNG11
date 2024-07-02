@@ -1,0 +1,45 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Challenge: File Streaming from an API Endpoint</title>
+  <link rel="stylesheet" href="style.css" />
+  
+</head>
+<body>
+    <div class="container">
+        <h1>Challenge: File Streaming from an API Endpoint</h1>
+        <div class="author">Erasmus E Obeth</div>
+        <div class="author">3 min read · Just now</div>
+        <p>Hey there, Today I want to share a story of file streaming on API endpoints that tested my skills and ultimately led to a satisfying victory. Buckle up, because we’re diving into the world of API calls, database, file management, and streaming.</p>
+        
+        <h2>The Challenge: Getting the file Type, URL, and setting appropriate Streaming mode</h2>
+        <p class="challenge">The mission: create a backend system that receives a GET request on a stream endpoint with an ID parameter from an API call, uses that ID to locate a file in my database, and then streams that file to a designated frontend URL. Sounds simple, right? Well, as with most things in programming, there were a few issues always popping up in my code.</p>
+        
+        <h2>Challenge 1: The ID and Database Dance</h2>
+        <p>First, ensuring accurate ID retrieval from the API call was crucial. I implemented to catch any unexpected data formats or missing information. Then came the database I had to write efficient queries to locate the file URL in my database.</p>
+        
+        <h2>Challenge 2: File Type Frenzy</h2>
+        <p>Once the file URL was in hand, it was time to serve it up for streaming. But here’s where things got tricky. Different file types require different streaming approaches and header configurations. To tackle this, I designed a function that could intelligently detect the file type (e.g., video, audio, image) based on its extension <code>getFileMimeType(“file name”)</code>. Based on the detected type, the function would then call another function to set the appropriate headers (e.g., Content-Type) and other settings then call the streaming function for that file type.</p>
+        
+        <h2>Challenge 3: The Streaming Showdown</h2>
+        <p>Finally, the big moment: streaming the file to the frontend. Each file type dictated a specific streaming approach. For instance, video streaming might require chunking the data into smaller packets for efficient delivery, image will require it to be displayed, PDFs and other docs will require them to be either displayed if supported, audio will be played etc. I meticulously wrote the streaming logic, ensuring smooth transfer and handling potential errors gracefully.</p>
+        
+        <p>After countless weeks of testing, debugging, and hair-pulling, the system finally worked! I could confidently receive an ID from the API, locate the file, determine its type, and stream it flawlessly to the frontend. It was a beautiful work of backend logic working in perfect harmony.</p>
+        
+        <h2>Why HNG is the Perfect Stage for My Next Act</h2>
+        <p>Now, I’m excited to embark on a new journey — the HNG Internship! This program is a dream come true for me with less collaboration experience. Here’s why HNG is the perfect platform for me:</p>
+        
+        <ul>
+            <li><strong>Real-World Challenges:</strong> I want the opportunity to tackle real-world projects that have a tangible impact. HNG’s focus on building solutions for actual businesses aligns perfectly with my desire to make a difference with my code.</li>
+            <li><strong>Leveling Up My Skills:</strong> I’m eager to refine my existing backend skillset and learn new ones while working under pressure and deadlines. HNG’s focus on work delivery and review, is exactly what I need to become fully confident in working at any software industry as a backend developer.</li>
+            <li><strong>The Community Collaboration:</strong> The collaborative environment at HNG Premium is a huge draw. Learning alongside other passionate developers and sharing knowledge will be invaluable in my growth journey on how to collaborate with other developers to deliver a working solution.</li>
+        </ul>
+        
+        <p>This internship is like a front-row seat to the backend development world. I’m ready to learn from the best, collaborate with brilliant minds, and contribute to building something remarkable. So, HNG, here I come! Get ready for some backend magic.</p>
+        <p>Read the original post on <a href="your-medium-link" class="link">Medium</a>.</p>
+    </div>
+</body>
+</html>
