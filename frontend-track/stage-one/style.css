@@ -1,1 +1,137 @@
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
 
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f9ff;
+    line-height: 1.6;
+    color: #082f49;
+    margin:1.25rem;
+    width: 100vw;
+    font-size: 1rem;
+    overflow: hidden;
+
+
+}
+
+header {
+    background-color: #0ea5e9; /* Medium blue for resources section */
+    color: #f0f9ff; /* Lightest shade for text */
+    text-align: center;
+    padding: 1rem 0;
+    position: sticky;
+    top: 0;
+    left: 0;
+    right: 0;
+    font-size: 1rem;  
+    width: 100%;
+}
+
+main {
+    /* margin: 0 auto; */
+}
+
+section {
+    min-height: 80vh;
+    border-radius: 10px;
+    overflow: hidden;
+    padding: 1.25rem;
+    width: 100%;
+
+}
+
+/* Profile section */
+#profile {
+    background-color: #ffffff;
+    padding: 1.25rem 0;
+}
+
+.profile-info img {
+    width: 100%;
+}
+
+.profile-details {
+    color: #0369a1;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    padding: 1.25rem ;
+    
+}
+
+.profile-details p {
+    margin-bottom: 10px;
+}
+
+/* Goals section */
+#goals {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#goals h2 {
+    color: #082f49; /* Darkest shade for header text */
+}
+
+.goal {
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #0284c7;
+}
+.goal h3 {
+    color: #075985;
+}
+.goal p {
+    color: #082f49;
+}
+
+/* Resources section */
+#resources {
+    background-color: #0ea5e9; 
+    border-radius: 10px;
+}
+
+#resources h2 {
+    color: #f0f9ff; 
+}
+
+#resources ul {
+    list-style: none;
+    padding: 0;
+}
+
+#resources ul li {
+    margin-bottom: 10px;
+}
+
+#resources ul li a {
+    color: #f0f9ff; /* Lightest shade for link text */
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+#resources ul li a:hover {
+    color: #0369a1; /* Dark blue on hover */
+}
+
+@media (max-width: 800px){
+body{
+    font-size: 0.75rem;
+}
+header{
+   padding: 0.5rem;
+   font-size: 0.75rem;
+
+
+}
+
+}
