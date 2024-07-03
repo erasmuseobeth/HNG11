@@ -1,0 +1,90 @@
+Stage 1: Build your personal website (FRONTEND TASK)
+Study Material
+https://www.freecodecamp.org/news/html-css-11-hour-course/
+HTML Tutorial: https://www.w3schools.com/html/
+CSS Tutorial: https://www.w3schools.com/css/
+Responsive Web Design Guide: https://firefox-source-docs.mozilla.org/devtools-user/responsive_design_mode
+HTMLImageElement: https://developer.mozilla.org/en-US/docs/Web/API/HTMLImageElement/naturalHeight
+GitHub Pages: https://docs.github.com/articles/creating-project-pages-manually
+Task
+You will create and host a simple single-page website outlining your goals for the next 2 years in the tech field.
+The website should be visually appealing, mobile-friendly, and utilize HTML, CSS and JavaScript only.
+Each required element should have a specified data-testid attribute for easy identification and testing.
+Requirements:
+Languages: Only HTML, CSS and JavaScript allowed for this stage.
+Responsiveness: The website must be responsive and function well on all devices (desktop, tablet, mobile).
+Images: All images used on the website must have natural dimensions (width and height specified in the image file itself). Websites with images that don't have natural dimensions will be automatically disqualified.
+Required Elements: Each required element on the website (Slack name, slack profile picture, links) should have a data-test-id attribute assigned for easy testing purposes.
+Slack Name:Display your Slack Display Name.
+Attribute: data-testid="slackDisplayName"
+Current Time in UTC:Display the current time in UTC.
+Attribute: data-testid="currentTimeUTC"
+Current Day of the week (e.g. Monday, friday):Display the current Day of the week.
+Attribute: data-testid="currentDay"
+Slack Email:Display your Slack Email.
+Attribute: data-testid="slackEmail"
+Slack profile pictureDisplay your Slack Profile Picture
+Attribute: data-testid="slackProfilePicture"
+Dimensions: The image must have natural dimensions (width and height specified in the image file itself) and added to the page in its original size (natural width and natural height).
+Add a link to hng.tech/learn.Attribute: data-testid="hngLink"
+Add a link to keyword.dogAttribute: data-testid="keywordLink"
+Add a link to scrapeanyweb.siteAttribute: data-testid="scrapeanywebLink"
+Acceptance Criteria:
+Content: The website should clearly outline your tech goals for the next 2 years.
+Visuals: The website should be visually appealing and well-organized.
+Functionality:All links should function properly and direct users to the specified websites (hng.tech/learn, keyword.dog, scrapeanyweb.site).
+The website should be fully responsive and adjust to different screen sizes.
+Code Quality:The code should be well-structured, indented, and easy to read.
+Each required element should have a unique data-testid attribute assigned.
+Accuracy:Your Slack name should correspond to the actual data.
+Your slack profile picture dimension must be in its original size (Make sure the image have natural dimensions).
+Data-attributes adherence: Every specified detail on the page should correctly have the data-testid attribute as indicated above, ensuring easy identification during any potential testing.
+Submission Mode:
+Submit your task through the designated Submission form  . Ensure you've:
+Hosted the page on a platform of your choice (e.g., Vercel, GitHub Pages, Netlify).
+Double-checked all requirements and acceptance criteria.
+Provided the hosted page's URL in the submission form.
+Thoroughly reviewed your work to ensure accuracy, functionality, and adherence to the specified guidelines before you submit it.
+freeCodeCamp.orgfreeCodeCamp.org
+Learn HTML and CSS with this free 11 hour course
+HTML and CSS are essential skills to have for a career in web development. This eleven hour course from John Smilga of Coding Addict will teach HTML and CSS from the scratch. By the end of this course you will be creating your own projects. HTML is a markup language
+Written by
+Beau Carnes
+Filed under
+HTML, CSS, YouTube
+Apr 30th, 2019
+https://www.freecodecamp.org/news/html-css-11-hour-course/
+
+w3schools.comw3schools.com
+W3Schools.com
+W3Schools offers free online tutorials, references and exercises in all the major languages of the web. Covering popular subjects like HTML, CSS, JavaScript, Python, SQL, Java, and many, many more. (6 kB)
+https://www.w3schools.com/html/
+
+w3schools.comw3schools.com
+W3Schools.com
+W3Schools offers free online tutorials, references and exercises in all the major languages of the web. Covering popular subjects like HTML, CSS, JavaScript, Python, SQL, Java, and many, many more. (6 kB)
+https://www.w3schools.com/css/
+
+MDN Web DocsMDN Web Docs
+HTMLImageElement: naturalHeight property - Web APIs | MDN
+The HTMLImageElement interface's
+naturalHeight property is a read-only value which
+returns the intrinsic (natural), density-corrected height of the image in
+CSS pixels. (24 kB)
+https://developer.mozilla.org/en-US/docs/Web/API/HTMLImageElement/naturalHeight
+
+Jul 1st at 10:17 AM
+
+
+ 
+Max Vincent
+If you are just joining..
+Things to do..
+Go to rules and read through
+Change your profile picture and set a tag for yours
+Do your stage zero task. Submit and get promoted to stage one
+Go to announcements-project to see your task base on your level
+Go to announcements-general for general information
+Ask for help if your are confused in help groups
+Be active and build a network.
+Thanks :pray: 
