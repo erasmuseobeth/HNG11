@@ -10,5 +10,5 @@ Response:
 }
 How to submit
 Host your API using any free hosting service. PLEASE AVOID render.com !!!.
-Submit on the Google Form here
+Submit on the Google Form here https://docs.google.com/forms/d/e/1FAIpQLSc9t0JIKEHfPvnXJNaw5tzatXJpoprZ4bViZ_66nGs0YtUvRQ/viewform?usp=sf_link
 Duration: 2 Days (COULD BE SHORTENED)
