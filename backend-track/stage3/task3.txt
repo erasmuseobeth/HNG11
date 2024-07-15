@@ -1,0 +1,90 @@
+Stage 3 Backend Task Summary:
+Form a Squad: Create teams of exactly 5 members, ideally those living close to you for ease of collaboration.
+Choose a Boilerplate: Select one of the provided boilerplate repositories to contribute to:
+Python FastAPI
+NestJS
+Golang
+Node.js
+C#
+PHP Laravel
+API Design: Collaboratively design a comprehensive API using OpenAPI for your chosen boilerplate.
+Database Design: Create a robust and well-structured database blueprint/design.
+Submission:
+Fork the chosen boilerplate repository.
+Create a new branch using your squad's name.
+Prepare a detailed ReadMe file with your API design and database design (including links if needed).
+Submit the URL of your forked repo branch.
+Important Notes:
+Teams will be evaluated as a whole, succeeding or failing together.
+Collaboration, trust, and teamwork are key to success.
+This stage emphasizes practical backend development skills, teamwork, and the ability to follow contribution guidelines. Good luck!
+
+ Stage 3 Backend Task
+For this fun task, you have major challenges to complete to move on in this journey.
+Form a Squad:
+Break into teams of 5 members only (Five members for each team). Feel free to pick your team mates, particularly those living close to you. Collaboration, trust and team work is key!
+Objective:
+https://github.com/hngprojects/hng_boilerplate_instructionsAccess these boilerplates URLs below, decide whichever repo your team will be contributing to. Ensure you follow the contribution guidelines. Read well this time around.
+ 
+https://github.com/hngprojects/hng_boilerplate_python_fastapi_web
+ https://github.com/hngprojects/hng_boilerplate_nestjs
+ https://github.com/hngprojects/hng_boilerplate_golang_web
+ https://github.com/hngprojects/hng_boilerplate_node_web
+ https://github.com/hngprojects/hng_boilerplate_csharp_web
+ https://github.com/hngprojects/hng_boilerplate_php_laravel_web
+In the project or repo of your choice, make sure you complete the following :
+API Design: Collaboratively craft a proper and complete API design for the boilerplate repo (you chose) using OpenAPI. Think of every detail and make us proud.
+Database Design: Create a database blueprint/design. Ensure it robust, well structured and visible.
+Submission: Once your API and database designs are completed and ready for submission,
+ Fork any of the boilerplate repo.
+ Create a new branch using your squad/group name.
+ Prepare a detailed ReadMe file with your API design and Database Design. You can include links to your design in the ReadMe file
+ Submit your URL to your FORKED repo branch to the submission form provided.
+Note:
+Your team will be judged as a unit. You get promoted as a group as well can fail as a group. So choose wisely :slightly_smiling_face:
+
+
+HNG Boilerplate Instructions
+The purpose of the HNG boilerplates is to create repositories for particular project stacks that show simple, secure and efficient ways of achieving common things that one tends to need to do in those stacks.
+
+Contents of each Boilerplate
+The boilerplates should contain the following
+
+A proper structure of the project according to the norms of the framework
+Authentication (including social authentication) + magic link authentication + in-app authentication screens (e.g change password)
+Messaging (email), including default templates and using background processes
+Payments (Stripe, Flutterwave integration, LemonSqueezy), internal and external
+Users & Organisations
+Manage Users
+Superadmin interface (users, orgs, payments, activity log)
+Settings page
+Profile Settings
+Landing page (various, e.g privacy policy, about us)
+Contact Us
+GPDR cookies
+Basic Dashboard
+Waitlist (coming sooon)
+Squeeze / Marketing Page
+Invite flow
+User data export
+Random Data associated to user + List of Random Data on the Dashboard - e.g Widgets in System.
+View of Single Data - e.g a single Widget associated with a user
+Other Data List with Search + Sorting
+Chart page with chart of data
+Content Edit Page
+Notifications
+Blog
+Invite Link
+Language and Region
+Email Template Management in the Superadmin (html)
+No UI
+Database
+Documentation on how to use each feature deeply
+AI Integration
+Migrations
+Recommendations
+Activity Log
+Push Notifications
+Notes
+Each boilerplate must contain instructions on how to keep your code as decoupled as possible, so it is easy to remove things not needed. Each boilerplate must contain the standards used in coding. Each boilerplate must contain a license file.
+
