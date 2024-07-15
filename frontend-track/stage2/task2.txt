@@ -1,50 +1,38 @@
-Abdul.tsx
-FRONTEND STAGE THREE TASK
-Task Description
-In this stage, you'll take your static Timbu Cloud shop page from Stage 2 and breathe life into it using Timbu APIs!
-API Exploration: Familiarize yourself with the Timbu API documentation to understand the functionalities available.
-Integration Strategy: Plan how you'll integrate the Timbu APIs to achieve a fully functional shop page. This might involve product catalog management, and potentially a simulated checkout flow.
-API Implementation: Integrate the Timbu APIs into your existing work to achieve the desired functionalities.
-Requirements
-Technologies: React, Next + any relevant technology.
-Timbu APIs: Utilize relevant Timbu APIs to achieve functionalities like product management and a simulated checkout flow.
-Create a Timbu account on timbu.cloud . Get your API key (it only views once).
-Add at least 30 products to your timbu account under Retail Business.
-Retrieve all product information using the api.
-The display of at least 10 products with images from the timbu api on a page with proper pagination
-Functionality: The shop page should maintain its visual design from Stage 2.
-Users should be able to interact with the page (e.g., view products, and simulate checkout flow).
-The following should work exceptionally
-Add to Cart
-Increase and decrease quantity but quantity should not be less than 1(else it should not be in the cart).
-Increasing or decreasing quantity should also reflect on the price.
-Remove from Cart
-Clear Cart
-Show relevant information about the products you have added on timbu in the list item.
-Proper UI state management and handling errors properly.
-Timbu APIs should be integrated to manage product data, and potentially simulate checkout processes.
-Acceptance Criteria:
-API Integration: Successful integration of relevant Timbu APIs product management, and simulated checkout flow.
-Functionality:The shop page is fully functional with user interaction capabilities.
-Sleek UI Implementation of the designer's work.
-Implementation of Timbu API .
-Users can navigate through the shop page and view product details.
-Each Product should be clickable and should navigate to a product page or product modal as per your design (Use the product_id from the API to achieve this)
-Add Multiple images to the product in your timbu account to implement a product Gallery on the product page or product modal.
-A simulated checkout process demonstrates the flow (without real payment processing).
-Build React components to manage different functionalities of the shop page (products, cart, checkout).
-Code Quality: Well-structured, documented, and maintainable code that effectively interacts with Timbu APIs.
-Submission Mode:
-Submit your task through the designated submission form. Ensure you've:
-Hosted the page on a platform of your choice (e.g., Vercel, Netlify).
-Double-checked all requirements and acceptance criteria.
-Provided the hosted page's URL in the submission form.
-Provided a link to the Figma file of the design.
-Thoroughly review your work to ensure accuracy, functionality, and adherence to the specified guidelines before you submit it.
-Submission Deadline:
-The deadline for submissions is Saturday, at <11:59 PM GMT>. Late submissions will not be entertained. @channel
-docs.timbu.clouddocs.timbu.cloud
-Hello from Timbu API Documentation | Timbu API Documentation (56 kB)
-https://docs.timbu.cloud/api/intro
-
+tage 2 Task: Design and frontend task
+Design & Build a Mini Online Store!
+Task Description:
+Get ready to collaborate with a front-end developer to build a simple and user-friendly online store, focusing on a fast and streamlined shopping experience. This will be a single-seller platform showcasing products and checkout experience.
+How to pair up:
+Designers and developers will be added to a private channel to bid.
+Designers in the channel will introduce yourselves. In a single post, a designer will pitch themselves to developers while sharing images of their best designs in the thread of their post. (posting of links are not allowed, also YOU ARE NOT ALLOWED TO POST TWICE to avoid confusion).
+Frontend developers will choose the designer they'd like to collaborate with and share a link to their past live projects in the thread of the designers they would like to work with (A FRONTEND DEVELOPER IS ONLY ALLOWED TO WORK WITH ONE DESIGNER)
+Once both agree to work together, the designer is to fill this form with their slack ID and that of the developer to record the partnership.
+Pairing rules and regulations:
+You have a timeframe of 3-4hours to be paired UP after adding you to the bidding channel.
+Failure to be paired after that timeframe means you're not interested pairing up with the designers in the channel, and for that, you'll be added to another pool of designers to bid for.
+The earlier you pair up, the earlier your designer have time to work and you have time to implement.
+What to Design:
+(Here’s a sample of a seller’s shop. This should serve as a guide and NOT to be copied and pasted - designers BEWARE!)
+Seller's Product Listing Page (web, mobile responsive, mobile app view)
+Cart Page (web, mobile responsive, mobile app view)
+Checkout experience(web, mobile responsive, mobile app view)
+What should be implemented:
+Seller's Product Listing Page (web, mobile responsive)
+Cart Page (web, mobile responsive)
+Checkout experience(web, mobile responsive)
+Pair Deliverables:
+A live link to your fully functional online store that works across all browsers (YOU WON’T BE SUBMITTING YOUR FIGMA FILE)
+How You'll Be Graded:
+Easy and enjoyable user experience of the implemented live link
+Looks good on all devices (responsive design)
+Clean and easy-to-use design
+Consistent brand style throughout
+Simple and fast-loading time on the live link
+Deadline & Notes:
+Monday, 8th - 11:59 PM GMT+1 (strict deadline) - live link deadline
+Each pair will be graded based on the live link to their fully functional online store that WORKS, fully responsive and looks good across all browsers and devices (Figma link WILL NOT be submitted and used for grading)
+Frontend developers can only work with one designer.
+If you're in BOTH design and frontend tracks, you can design and build your own store (inform both track mentors of the solo paired work to take record).
+Bid for a partner early to give yourselves more time to work!
+Submission Link: Submit here
 
