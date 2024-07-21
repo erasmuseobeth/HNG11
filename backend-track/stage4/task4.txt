@@ -1,0 +1,125 @@
+
+@channel All backend Devs  before 12 today, you should either have your ticket in GitHub (in groups of 5), or you should have your revision from my comments done. I will do next round of checks from 12 to 13. Tickets that need revision will get -1 points. Next revision test will be by 6. No tickets will be accepted if it does not have five people. Those 5 people must have agreed that they will be implementing the feature.
+Do NOT MIX FE WITH BE. Each ticket is to be ONE thing - e.g Add. Do not add tickets that are Add, Edit, Remove, etc.
+
+
+
+
+
++3
+9 replies
+Last reply 4 days agoView thread
+
+
+
+
+NEW
+
+
+
+mark
+:stars:  07:36
+Your Stage 4 task will be to deliver a ticket. Before you can deliver a ticket, your ticket must be approved. That's what is happening above.
+
+@channel
+SUB-Task for PM Interns And BackEnd DEVs : Collaboration Between PM And Backend Developers to Convert Tasks into Actionable GitHub Tickets
+Task Overview
+As part of your responsibilities in the HNG Internship, you will work closely with backend developers to convert the tasks you created into actionable GitHub tickets. These tickets should be well-nuanced and appropriately sized for backend developers to pick up. The backend developers will reformat the PMs' created tasks into the required format and include the relevant database designs.
+Step 1: Forming Pairs
+Pair Up:
+Each PM Product Group should pair up with the backend developer interns to form 3 Sub Groups.
+In situations where the tickets for their features are not sufficient for the BE Devs, each subgroup can source tickets outside their team.
+NB : There should be a maximum of 33 BE Devs Per Sub Group,
+Step 2: Review the Created Tasks
+Review Tasks:
+Review the tasks that the PMs previously created with the backend dev you paired with.
+The most technical BE DEV(s) within each subgroup should lead the review of the tickets.
+Step 3: Converting Tasks into GitHub Tickets
+Use the Standard GitHub Ticket Format Shared:
+Ensure each GitHub ticket follows the provided format below..
+Include clear and concise acceptance criteria.
+Standard GitHub Ticket Format:
+https://github.com/hngprojects/hng_boilerplate_nestjs/issues/1
+Step 4: Refining Tickets
+1. Refinement:
+   - Backend developers should review the tickets to ensure they are technically sound.
+   - Edit any tasks that do not make sense or are not technically feasible.
+   - Ensure all tickets are clear, and actionable.
+Step 5: Submitting GitHub Tickets
+1. Create GitHub Issues:
+   - Create the finalized GitHub issues in the designated repository.
+   - Ensure each issue is detailed and follows the required format.
+2. Submission:
+One BE Dev( A team representative ) within the Sub Group would be given access to create the github issue on the repo.
+Deadline
+- Submit the completed GitHub tickets by 6PM TUESDAY
+DETAILED TASK OVERVIEW
+Important Instruction: Avoid Ticket Repetition
+Warning on Ticket Repetition
+It is crucial to ensure that each GitHub ticket created is unique and not repeated. Repeated tickets can lead to confusion, inefficiency, and potential failure of both teams involved.
+Key Points to Remember:
+1. No Repeated Tickets:
+   - Each GitHub ticket should be unique.
+   - Double-check to make sure no ticket is created more than once.
+2. Team Collaboration:
+   - PMs and backend developers must collaborate closely to ensure there are no duplicate tickets.
+   - Communicate effectively within and between teams to avoid overlaps.
+3. Technical Coherence:
+   - All tickets within components should fit end-to-end and make technical sense as a whole.
+   - Ensure each ticket is clearly defined, actionable, and complements the overall project structure.
+Consequences of Repeated Tickets:
+- Failure of Both Teams:
+  - If a ticket is found to be repeated, both the PM and the backend developer teams responsible for the repetition will fail.
+  - This rule is in place to ensure accountability and encourage thorough checks and balances.
+Action Steps:
+1. Review Existing Tickets:
+   - Before creating new tickets, review the existing ones to ensure there are no duplicates.
+2. Cross-Check with Team:
+   - Regularly check in with your team and the paired backend developers to avoid overlap.
+3. Ensure Technical Fit:
+   - Verify that each ticket makes technical sense and fits seamlessly into the overall project architecture.
+
+
+Please ensure your ticket meets the following criteria as this is what we will be checking for:
+1. Endpoint/Feature Description
+ Clarity: Ensure the description is clear and outlines the purpose of the endpoint or feature.
+ Scope: Verify the scope is well-defined and specific.
+2. Acceptance Criteria
+ Completeness: Check that all necessary acceptance criteria are listed.
+ Measurable: Ensure criteria are measurable and testable.
+3. Data Validation
+ Input Validation: Confirm input data validation requirements.
+ Output Validation: Ensure output data validation requirements.
+4. Authentication and Authorization
+ Authentication: Verify that authentication requirements are specified.
+ Authorization: Check that authorization rules are defined.
+5. Error Handling
+ Error Responses: Ensure error responses are defined for common failure scenarios.
+ Edge Cases: Check for consideration of edge cases.
+6. Performance and Security
+ Performance Considerations: Review performance implications and optimizations.
+ Security Concerns: Ensure security considerations are addressed (e.g., data sanitization, rate limiting).
+7. Documentation
+ API Documentation: Confirm that API documentation requirements are specified.
+ Technical Notes: Ensure any additional technical notes are included.
+8. Testing Requirements
+ Unit Tests: Verify the need for unit tests.
+ Integration Tests: Confirm the requirement for integration tests.
+9. Dependencies and Impact
+ Dependencies: Identify any dependencies on other tasks or systems.
+ Impact Analysis: Assess the potential impact on other features or components.
+Please update your tickets to the following req if it isnt up to
+Most Important is to check for duplicate tic
+
+ 
+Chinedu
+:stars:
+@channel an essential addendum to the accepted conventions:
+Your APIs must be versioned.
+You must at all times follow REST API naming conventions and best practices; please study the included resources
+https://restfulapi.net/resource-naming/
+https://github.com/saifaustcse/api-best-practices?tab=readme-ov-file#9-do-not-use-verbs-in-the-uri
+REST API TutorialREST API Tutorial
+REST API URI Naming Conventions and Best Practices
+In REST, having a strong and consistent REST resource naming strategy – will prove one of the best design decisions in the long term. Let's discuss.
+Jun 1st, 2018 (62 kB)
