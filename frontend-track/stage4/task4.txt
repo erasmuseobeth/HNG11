@@ -1,0 +1,45 @@
+
+@channel Frontend Task: Developing and Testing the Boilerplate (Updated)
+Task Overview
+Your task is to develop the frontend of the boilerplate product designed by the design team. You will work on implementing the high-fidelity designs and prototypes into a functional frontend application using the provided boilerplate. The goal is to ensure that the product is responsive, functional, and consistent with the design specifications.
+Deliverables:
+Development:
+Fix/implement at least one GitHub issue assigned to you according to the design provided on Figma.
+FIGMA LINK WILL BE PROVIDED IN THE ASSIGNED ISSUE
+Ensure the application is fully responsive and works across different devices and browsers.
+Follow the provided design system and style guide for consistency.
+NEXT.JS / TYPESCRIPT   ---- REMIX / TYPESCRIPT
+Testing - Only applicable to those assigned a Next.js issue:
+Write unit tests for all components using Vitest and React testing library.
+Ensure you cover all statements, branches, lines.
+Ensure all your tests are passing and there are no bugs or issues in the implementation.
+Code Quality:
+Maintain clean and well-documented code.
+Follow best practices for code organization and structure.
+Steps to Complete the Task:
+Submit Email for GitHub Repo Access:
+Submit your email address here to be assigned an issue.
+Fork the Boilerplate Repository:
+Fork the hng_boilerplate_nextjs repository to your GitHub account.
+Fork the hng_boilerplate_remix repository to your GitHub account.
+Work on Assigned Issue:
+You will be assigned an issue to work on from the boilerplate repository.
+Implement the required features and designs as specified in the issue.
+Create a Pull Request (PR):
+Once you have completed the implementation and testing, create a PR to the original repository.
+Ensure that your PR includes a detailed description of the changes made and references the issue number you were assigned.
+CONTRIBUTION
+Please read this to know how to make a proper contribution to this repo
+Evaluation Criteria:
+Completeness:
+Is the frontend implementation complete and does it match the designs?
+Are all necessary features and states included?
+Quality:
+Is the code clean, well-documented, and follows best practices?
+Are there sufficient unit and end-to-end tests? (Only applicable to those assigned to a Next.js issue)
+Functionality:
+Does the application work correctly across different devices and browsers?
+Are there no bugs or issues in the implementation?
+Submission:
+Submit the link to your GitHub repository containing the link to the issues assigned to you and the PR link here: https://forms.gle/PJaUshxsLbJ91AeaA
+Ensure your code is properly tested and follows the design specifications.
